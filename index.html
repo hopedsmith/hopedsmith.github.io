@@ -1,10 +1,139 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Hope Smith's Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello world from GEOG 485!</h1>
-    <p>My personal website!</p>
+    <!-- Buttons-->
+    <div class="header">
+        <h1>Welcome to Hope's Personal Website</h1>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+            <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+            <button class="tablinks" onclick="openTab(event, 'My Web Page')">My Web Page</button>
+        </div>
+    </div>
+
+    <!-- Tab Contents -->
+    <div id="Home" class="tabcontent" style="text-align: left; font-size: 20px;">
+        <h2>Welcome to Hope's Personal Website :)</h2>
+
+        <div style="position: absolute; top: 200px; right: 10px; text-align: center">
+            <figure style="margin-top: 20px;">
+                <img src="hope_image2.jpeg" width="500" />
+                <figcaption>My dog Bo!</figcaption>
+                <figcaption>🐶🐶🐶</figcaption>
+            </figure>
+        </div>
+
+        <div style="position: absolute; top: 250px; left: 20px; text-align: left; font-size: 20px;">
+            <p>On this cite you will find some information about me, how to contact me, and</p>
+            <p>find out about my group's final project!!</p>
+            <p>Thank you for stoping by and enjoy your time here!!</p>
+            <br>
+            <br>
+            <br>
+            <p>This website was created for Mini Assignment 3 for Interactive Web Mapping</p>
+            <p>(GEOG 485L/585L). If you have any questions, comments, or concerns don't</p>
+            <p>hesitate to reach out!</p>
+            <br>
+            <br>
+            <br>
+            <p> <u>About me:</u> Learn about who I am, what I am studying, and some of my hobbies and</p>
+            <p>interest</p>
+            <p> <u>Contact:</u> Feel free to contact me for any questions or if you want to connect</p>
+            <p><u>My Web Page:</u> Take a look and learn about the project my group has been working on</p>
+        </div>
+    </div>
+
+    <div id="About" class="tabcontent" style="text-align: left; font-size: 20px;">
+        <h2>About Me 🤍</h2>
+        <div style="position: absolute; top: 250px; left: 20px; text-align: left; font-size: 20px;">
+            <p>My name is Hope Smith and I'm an undergrad at the University of New Mexico.</p>
+            <p>I am majoring in Geography and Environmental Studies and minoring in Sustainability</p>
+            <p>Studies. My passion for geography is driven by a strong interest in GIS and </p>
+            <p>cartography. Curretly, I have an internship with the Center for Community Geography</p>
+            <p>as their Cartographer. I am originally from St. Joseph, Missouri, but curretly in</p>
+            <p>Albuquerque, New Mexico for school. I have also lived in Manhattan, Kansas and</p>
+            <p>Tucson, Arizona. In my free time, I enjoy playing guitar, watching movies, and</p>
+            <p>spending time outdoors. I also enjoy traveling. My favorite places I've been to</p>
+            <p>are New York City, San Francisco, Chicago, France, Denmark, and Sweden. Next</p>
+            <p>semester (Fall 2024), I plan on graduating with my BS degree. I hope to get a</p>
+            <p>job related to cartography and/or GIS. I also plan to move closer to hope in</p>
+            <p>Kansas City, Missouri for a few years.</p>
+        </div>
+
+        <figure style="position: absolute; top: 200px; right: 10px; text-align: center">
+            <img src="hope_image1.jpeg" width="500" />
+            <figcaption>Me in Copenhagen, Denmark!</figcaption>
+            <figcaption>❤️🤍❤️</figcaption>
+        </figure>
+    </div>
+
+    <div id="Contact" class="tabcontent" style="text-align: left; font-size: 20px;">
+        <h2>How to Contact Me 🤎</h2>
+
+        <div style="position: absolute; top: 200px; right: 10px; text-align: center">
+            <figure style="margin-top: 20px;">
+                <img src="hope_image3.jpeg" width="600" />
+                <figcaption>Bo again!</figcaption>
+                <figcaption>🐶🐶🐶</figcaption>
+            </figure>
+        </div>
+        <div style="position: absolute; top: 250px; left: 20px; text-align: left; font-size: 20px;">
+            <p>- My school email: hsmith11@unm.edu</p>
+            <p>- My personal email: hopedhsmith@gmail.com</p>
+            <p>- My phone number: +1 (816) 341-6696</p>
+            <p>- My LinkedIn: <a href="https://www.linkedin.com/in/hope-smith-aa8387352/" style="color: #f9e793;">my
+                    profile</a>
+                <br>
+                <br>
+                <br>
+            <p>Don't hesitate to contact me! I may not respond to emails sent after 10pm.</p>
+            <p>If you want to contact me about anything related to school or my internship,</p>
+            <p>use my school email. If you want to contact me about anything related to
+            <p>anything else, use my personal email.</p>
+        </div>
+    </div>
+
+    <div id="My Web Page" class="tabcontent" style="text-align: left; font-size: 20px;">
+        <h2>My Web Page 💛</h2>
+
+        <div style="position: absolute; top: 200px; right: 10px; text-align: center">
+            <figure style="margin-top: 20px;">
+                <img src="hope_image4.jpeg" width="500" />
+                <figcaption>Me in Paris, France!</figcaption>
+                <figcaption>💙🤍❤️</figcaption>
+            </figure>
+        </div>
+        <div style="position: absolute; top: 250px; left: 20px; text-align: left; font-size: 20px;">
+            <p>Attached here is the <a
+                    href="file:///Users/hopesmith/Downloads/Personal%20Website/hopedsmith.github.io/index2.html"
+                    style="color: #f9e793;">link</a> to my group's final project. With our project, we hope to</p>
+            <p>showcase sources of polution that are rarely talked about. The polution we hope to</p>
+            <p> is pollution casued by noise and light. We want to show the places where this</p>
+            <p>pollution occurs the most with a population density layer. We also want to show</p>
+            <p>how the "natural world" is impacted by this pollution with a layer(s) of how</p>
+            <p>animal populations are effected. On our page, we will also include some background</p>
+            <p>information that will be important to know.</p>
+            <p>Feel free to take a look!</p>
+            <br>
+            <br>
+            <p><u>Some of the information that will be included:</u></p>
+            <p>- What is noise and light polution</p>
+            <p>- How does it harm animals</p>
+            <p>- Images of the pollution and its impactes</p>
+            <p>- Charts and/or graphs of statistics</p>
+
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
+
 </html>
