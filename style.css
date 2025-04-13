@@ -1,0 +1,78 @@
+* {
+    font-family: 'Rockwell', 'Georgia', serif;
+}
+
+body {
+    background-color: #000080;
+    /* Bottom section background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Top section background */
+.header {
+    background-color: #7ca7eb;
+    /* Top section background */
+    padding: 0px 5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Headings */
+.header h1 {
+    color: #6F4E37;
+    font-size: 48px;
+    margin: 20px 0 20px 0;
+}
+
+h2 {
+    color: #7ca7eb;
+}
+
+/* Paragraph text and general content */
+p,
+div.tabcontent {
+    color: #f9e793;
+}
+
+/* Tab styles */
+.tab {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0px;
+    border-bottom: 5px solid #F4C430;
+    text-align: center;
+}
+
+.tab button {
+    background-color: #f9e793;
+    color: #6F4E37;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: 10 5px;
+}
+
+.tab button:hover {
+    background-color: #FADA5E;
+}
+
+.tab button.active {
+    background-color: #F4C430;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: none;
+}
+
+figcaption {
+    color: #f9e793;
+    /* Change this to any color you want */
+    margin-top: 8px;
+}
